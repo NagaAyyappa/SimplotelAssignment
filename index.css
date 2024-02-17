@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 96, 122);
+    overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-container {
+        justify-content: center;
+    }
+}
+
+.nav-titles {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-titles {
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-titles {
+        font-size: 20px;
+        margin: 20px;
+    }
+}
+
+.menu-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.dish-container {
+    background-image: linear-gradient(to right, rgb(240, 210, 134), pink);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .dish-container {
+        width: 50%;
+        height: 90vh;
+    }
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Roboto";
+    letter-spacing: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .heading {
+        font-size: 50px;
+    }
+}
+
+.dish-description {
+    font-size: 14px;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 768px) {
+    .dish-description {
+        font-size: 20px;
+    }
+}
+
+.click-me-button {
+    background-color: rgb(251, 96, 122);
+    color: white;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.dish-image {
+    height: 350px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .dish-image {
+        width: 50%;
+        height: 90vh;
+    }
+}
